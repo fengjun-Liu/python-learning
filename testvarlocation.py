@@ -1,7 +1,7 @@
 #!/usr/bin/python3 
 import requests
 
-wchaturl = "https://sc.ftqq.com/SCU88589T51d420a21b4ff294fe0ac4673bf201235e65c03803268.send"
+wchaturl = "https://sc.ftqq.com/[youid].send"
 
 def pushmywchat(text,desp):
 	dd={'text':text,"desp":desp}

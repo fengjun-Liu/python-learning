@@ -10,8 +10,8 @@ msg_from = 'xxxxx@qq.com'  # 发送方邮箱
 passwd = 'xxxxxxxxxxx'  # 填入发送方邮箱的授权码
 msg_to = 'xxxx@qq.com'  # 收件人邮箱
 mail_host="smtp.163.com"  #设置服务器
-mail_user="alice611400@163.com"    #用户名
-mail_pass="liufengjun199122"   #口令 
+mail_user="user"    #用户名
+mail_pass="pass"   #口令 
 
  
 def send():

@@ -12,12 +12,12 @@ import requests
 
 # 第三方 SMTP 服务
 mail_host="smtp.163.com"  #设置服务器
-mail_user="alice611400@163.com"    #用户名
-mail_pass="liufengjun199122"   #口令 
+mail_user="user"    #用户名
+mail_pass="pass"   #口令 
  
  
-sender = 'alice611400@163.com'
-receivers = ['939643949@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+sender = ' '
+receivers = [' ']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
  
 message = MIMEMultipart()
 message['From'] = sender

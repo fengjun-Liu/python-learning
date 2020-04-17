@@ -20,8 +20,8 @@ sender = 'alice611400@163.com'
 receivers = ['939643949@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
  
 message = MIMEMultipart()
-message['From'] = 'alice611400@163.com'
-message['To'] =  '939643949@qq.com'
+message['From'] = sender
+
  
 subject = '网络图片1'
 message['Subject'] = Header(subject, 'utf-8')

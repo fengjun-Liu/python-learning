@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://172.16.110.56:60175/inventory/deviceinfo?loid=raisecom0414"
+url = "http://x.x.x.x:60175/inventory/deviceinfo?loid=raisecom0414"
 
 payload = {}
 headers = {
